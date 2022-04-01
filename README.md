@@ -1,2 +1,2 @@
 # daresemi
-This is form page design by me for Agba Akin scholarship competition on twitter
+This is a form page design by me for Agba Akin scholarship competition entry on twitter
