@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form page-Dare</title>
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+
+<body>
+        <h1><strong>Club Membership Registration</strong></h1>
+        <p>complete the form below for us to have your details.</p>
+        <form>
+            <div class="container">
+                <div class="form-container">
+                    <div class="name-input">
+                        <label for="name" class="name-edit">Your Full Name </label><br />
+                        <input type="text" name="name" id="name" placeholder="enter your name" class="name-white-box"
+                            required>
+                    </div>
+                    <div class="email-input">
+                        <label for="email" class="email-edit">Your email</label><br />
+                        <input type="email" name="email" id="email" class="email-white-box" placeholder="email address" required>
+                    </div>
+                    <div class="website-input">
+                        <label for="website" class="website-edit">Website address</label><br />
+                        <input type="url" name="website" id="website" class="website-white-box" placeholder="website" required>
+                    </div>
+                    <div class="message-input">
+                        <label for="message" class="message-edit">Additional message</label><br />
+                        <textarea rows="3" cols="23px" id="message" class="message-white-box" placeholder="enter content" required></textarea>
+                    </div>
+                    <div class="submit-btn">
+                        <input type="button" name="submit" id="submit" value="Submit" class="btn">
+                    </div>
+                </div>
+            </div>
+        </form><br /><br />
+        <footer>
+            <p>Copyright © <a href="https://twitter.com/dareadeyy" target="_blanck" class="anchor">dareadeyy</a></p>
+        </footer>
+
+        <script src="./asset/js/bootstrap.min.js"></script>
+
+</body>
+</html>
