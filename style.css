@@ -1,0 +1,79 @@
+body {
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    background-image: url("./IMG_6205.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    
+}
+
+h1 {
+    font-size: 19px;
+    margin: 25px 330px ;
+    padding: 10px;
+    color: rgb(56, 50, 56);
+}
+
+p {
+    text-align: center;
+    
+}
+
+.container {
+        width: 500px;
+      height: 640px;
+      margin: 20px auto;
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 0.6);
+      
+
+    }
+
+.form-container {
+    padding: 20px;
+    margin: 20px 90px;
+}
+
+.name-input, .email-input, .website-input, .message-input {
+ padding: 15px;
+}
+
+.btn {
+     margin: 10px 70px;
+     color: rgb(16, 6, 6);
+    background-color: rgb(167, 155, 137);
+}
+
+
+.name-white-box, 
+.website-white-box, 
+.email-white-box, 
+.website-white-box, 
+.message-white-box {
+    border: none;
+    background-color: #fff;
+    color: rgb(83, 58, 58);
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 6px 5px;
+    box-sizing: border-box;
+
+}
+
+footer {
+    color:#fff;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 370px;
+    background-color: rgb(46 47 47);
+
+}
+.anchor {
+    color: #fff;
+}
